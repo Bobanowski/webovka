@@ -1,5 +1,5 @@
 title: "Fotograf Bořek Běhavý"
 description: "Fotograf Bořek Běhavý"
-baseurl: "" # Set if hosting in a subdirectory
-url: "" # Set your site url
+baseurl: "/webovka"   # <-- include the slash before the repo name
+url: "https://bobanowski.github.io"
 theme: null
