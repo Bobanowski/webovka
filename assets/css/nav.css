@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   gap: 2em;
-  background: transparent;
-  border-bottom: 1px solid #222;
+  background: #050c15;
+  border-bottom: 1px solid transparent;
   padding: 1em 0 0.5em 0;
   font-size: 1.15em;
 }
@@ -15,6 +15,6 @@
   transition: background 0.2s, color 0.2s;
 }
 .navbar a:hover, .navbar a:focus {
-  background: #222;
-  color: #e2b246;
+  background: #0A1929;
+  color: #5090D3;
 }
