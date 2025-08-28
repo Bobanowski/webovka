@@ -1,5 +1,7 @@
 title: "Fotograf Bořek Běhavý"
 description: "Fotograf Bořek Běhavý"
+author: "Bořek Běhavý"
 baseurl: "/webovka"   # <-- include the slash before the repo name
 url: "https://bobanowski.github.io"
 theme: null
+default_lang: "cs"    # <-- Languages to select: en, cs

@@ -1,7 +1,11 @@
+{% assign lang = site.default_lang | default: 'en' %}
 <header>
     <nav class="navbar">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/about' | relative_url }}">About</a>
-      <a href="{{ '/contact' | relative_url }}">Contact</a>
+      <a href="{{ '/' | relative_url }}">{{ site.data[lang].ui.home }}</a>
+      <a href="{{ '/gallery' | relative_url }}">{{ site.data[lang].ui.gallery }}</a>
+      <a href="{{ '/posts' | relative_url }}">{{ site.data[lang].ui.blog }}</a>      
+      <a href="{{ '/contact' | relative_url }}">{{ site.data[lang].ui.contact }}</a>
+      <a href="{{ '/about' | relative_url }}">{{ site.data[lang].ui.about }}</a>
+
     </nav>
   </header>

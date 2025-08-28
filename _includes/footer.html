@@ -1,5 +1,14 @@
 <footer>
-  <p style="text-align:center; color:#999; margin:2em 0 1em 0; font-size: 0.95em;">
-    &copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.
-  </p>
+  
+<div class="profile-container">
+  <img src="/assets/images/my-photo.jpg" alt="My Photo" class="profile-image">
+  <div class="profile-details">
+    <h1>{{ site.author }}</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, nisi eu consectetur commodo, nisl nunc euismod nisi, euismod aliquam nunc nisi euismod.</p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <!-- Your footer code here -->
+  &copy; {{ "now" | date: "%Y" }} {{ site.title }}. All rights reserved.
 </footer>
