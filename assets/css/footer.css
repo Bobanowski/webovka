@@ -19,13 +19,14 @@
   }
   .profile-details h1 {
     margin: 0 0 12px 0;
-    font-size: 2.2em;
+    font-size: 1.8em;
     font-weight: 700;
+    text-align: left;
   }
   .profile-details p {
     margin: 0;
     font-size: 1.1em;
-    color: #555;
+    color: #dddddd;
     max-width: 400px;
   }
   .site-footer {
@@ -34,10 +35,10 @@
     bottom: 0;
     width: 100%;
     padding: 12px 0;
-    background: #eee;
+    background: #050c15;
     text-align: center;
-    color: #444;
+    color: white;
     font-size: 0.95em;
     z-index: 100;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid transparent;
   }
