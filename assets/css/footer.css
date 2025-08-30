@@ -3,8 +3,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
-    margin-bottom: 120px;
+    margin-top: 20px;
+    margin-bottom: 15px;
   }
   .profile-image {
     width: 150px;
@@ -25,15 +25,17 @@
   }
   .profile-details p {
     margin: 0;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #dddddd;
-    max-width: 400px;
+    max-width: 600px;
   }
   .site-footer {
-    position: fixed;
+    display: flex;
+    flex-direction: column;
     left: 0;
     bottom: 0;
     width: 100%;
+    max-height: 300px;
     padding: 12px 0;
     background: #050c15;
     text-align: center;
